@@ -1,0 +1,140 @@
+// out: ../css/index.css
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+.cont  {
+    background-color: black;
+    width: 475px;
+    height: 50px;
+    position: absolute;
+    top: 5px;
+    opacity: 0.1;
+}
+
+.open-tools{
+    width: 6%;
+    height: 5%;
+    left: 47% ;
+    right: 47%;
+    border-radius: 100px;
+    background-color: black;
+    position:absolute;
+    top:-20px;
+    z-index: 7;
+}
+.tools{
+    // visibility:hidden;
+    width: 475px;
+    height: 50px;
+    position: absolute;
+    top: 5px;
+    z-index: 8;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    .main-color {
+        width: 41px;
+        height: 41px;
+        background-color: black;
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-right: 5px;
+    }
+
+    .colors {
+        border-left: 1px solid rgb(201, 199, 199);
+        border-right: 1px solid rgb(201, 199, 199);
+        width: 250px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+
+        .top-colors {
+            height: 45%;
+            width: 95%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items:flex-end;
+
+            .color {
+                width: 20px;
+                height: 20px;
+                box-sizing: border-box;
+            }
+        }
+        .bottom-colors {
+            height: 45%;
+            width: 95%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items:flex-start;
+            
+            .color {
+                width: 20px;
+                height: 20px;
+                box-sizing: border-box;
+            }
+        }
+    }
+
+    .sizes {
+        border-right: 1px solid rgb(201, 199, 199);
+        width: 160px;
+        height: 100%;
+        display: flex;
+        justify-content:space-around;
+        align-items: center;
+
+        .size {
+            background-color: orange;
+            box-sizing: border-box;
+        }
+    }
+
+    .shapes {
+        border-right: 1px solid rgb(201, 199, 199);
+        width: 60px;
+        height: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+
+        .shape1 {
+            width: 22px;
+            height: 22px;
+            background-color: orange;
+            background-color: 0;
+        }
+        .shape2 {
+            width: 22px;
+            height: 22px;
+            background-color: orange;
+            border-radius: 100px;
+            box-shadow: 0 0 3px black;
+        }
+    }
+
+}
+.canvas {
+    width: 100%;
+    height: 100%;
+    position: relative;
+
+    .line {
+        width: 45px;
+        height: 45px;
+        position: absolute;
+        background-color: orange;
+        border-radius: 100px;
+    }
+}

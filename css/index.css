@@ -1,0 +1,126 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+.cont {
+  background-color: black;
+  width: 475px;
+  height: 50px;
+  position: absolute;
+  top: 5px;
+  opacity: 0.1;
+}
+.open-tools {
+  width: 6%;
+  height: 5%;
+  left: 47% ;
+  right: 47%;
+  border-radius: 100px;
+  background-color: black;
+  position: absolute;
+  top: -20px;
+  z-index: 7;
+}
+.tools {
+  width: 475px;
+  height: 50px;
+  position: absolute;
+  top: 5px;
+  z-index: 8;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.tools .main-color {
+  width: 41px;
+  height: 41px;
+  background-color: black;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-right: 5px;
+}
+.tools .colors {
+  border-left: 1px solid #c9c7c7;
+  border-right: 1px solid #c9c7c7;
+  width: 250px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.tools .colors .top-colors {
+  height: 45%;
+  width: 95%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.tools .colors .top-colors .color {
+  width: 20px;
+  height: 20px;
+  box-sizing: border-box;
+}
+.tools .colors .bottom-colors {
+  height: 45%;
+  width: 95%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.tools .colors .bottom-colors .color {
+  width: 20px;
+  height: 20px;
+  box-sizing: border-box;
+}
+.tools .sizes {
+  border-right: 1px solid #c9c7c7;
+  width: 160px;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.tools .sizes .size {
+  background-color: orange;
+  box-sizing: border-box;
+}
+.tools .shapes {
+  border-right: 1px solid #c9c7c7;
+  width: 60px;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.tools .shapes .shape1 {
+  width: 22px;
+  height: 22px;
+  background-color: orange;
+  background-color: 0;
+}
+.tools .shapes .shape2 {
+  width: 22px;
+  height: 22px;
+  background-color: orange;
+  border-radius: 100px;
+  box-shadow: 0 0 3px black;
+}
+.canvas {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.canvas .line {
+  width: 45px;
+  height: 45px;
+  position: absolute;
+  background-color: orange;
+  border-radius: 100px;
+}
